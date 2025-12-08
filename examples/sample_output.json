@@ -1,0 +1,19 @@
+{
+  "model": "example-rag-model",
+  "task": "question-answering",
+  "prompt": "What is retrieval-augmented generation?",
+  "output": "Retrieval-Augmented Generation (RAG) is a natural language processing technique that combines the power of large language models with external knowledge retrieval. It works by first retrieving relevant documents or information from a knowledge base, then using that retrieved context to generate more accurate and informed responses.",
+  "retrieved_documents": [
+    {
+      "title": "Introduction to RAG",
+      "snippet": "RAG enhances language models by incorporating external knowledge...",
+      "relevance_score": 0.95
+    }
+  ],
+  "timestamp": "2025-12-08T10:54:30Z",
+  "metadata": {
+    "temperature": 0.7,
+    "max_tokens": 150,
+    "top_k": 3
+  }
+}
